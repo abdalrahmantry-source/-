@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "tntwalk",
+  "version": "${version}",
+  "name": "TNT Walk",
+  "description": "Every block you stand on turns into primed TNT. Press F8 to change the fuse time.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.tntwalk.TntWalkMod"],
+    "client": ["com.tntwalk.TntWalkClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
